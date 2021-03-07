@@ -20,6 +20,9 @@
       <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
       <forum></forum>
       <website></website>
+      <assets>
+        <icon>icon.png</icon>
+      </assets>
       <email></email>
       <source></source>
   </extension>
