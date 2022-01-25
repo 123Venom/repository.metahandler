@@ -6,8 +6,9 @@
 		<import addon="script.module.simplejson" version="3.17.0+matrix.2" />
 		<import addon="script.module.myconnpy" version="8.0.18+matrix.1" />
 	</requires>
-	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+		<provides>executable</provides>
+	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
@@ -26,7 +27,7 @@
 		</assets>
 		<news>
 [B]Version 5.0.1[/B]
-- Fixed settings.xml version preventing setting UI from showing in Kodiunder Matrix
+- Fixed settings.xml version preventing setting UI from showing in Kodi Matrix
 		</news>
 	</extension>
 </addon>
